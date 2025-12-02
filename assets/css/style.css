@@ -1,0 +1,61 @@
+/* Minimal styles for the scaffold */
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    color: #222;
+    background: #f8f9fb
+}
+
+.container {
+    max-width: 960px;
+    margin: 0 auto;
+    padding: 1rem
+}
+
+.site-header {
+    background: #fff;
+    border-bottom: 1px solid #e6e6e6
+}
+
+.site-header h1 {
+    margin: 0;
+    padding: 1rem 0;
+    display: inline-block
+}
+
+.site-header nav {
+    float: right;
+    margin-top: 1rem
+}
+
+.site-header a {
+    margin-left: 1rem;
+    color: #333;
+    text-decoration: none
+}
+
+.products {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem
+}
+
+.product {
+    background: #fff;
+    border: 1px solid #e6e6e6;
+    padding: 1rem;
+    width: calc((100% - 2rem) / 3);
+    box-sizing: border-box
+}
+.price {
+    color: #007bff;
+    font-weight: 700;
+    margin-top: 0.5rem
+}
+
+.site-footer {
+    padding: 1rem;
+    text-align: center;
+    margin-top: 2rem;
+    color: #666
+}
